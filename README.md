@@ -7,8 +7,11 @@
 
 `` Special thanks to JS MASTERY.
 
-## Demo
+## Demo - Snapshots
 ![demo Landing page](https://github.com/pnajmedia/e_commerce_22/blob/main/DEMO/Demo_landing_1.png)
+![demo Landing page](https://github.com/pnajmedia/e_commerce_22/blob/main/DEMO/Demo_Landing_page.png)
+![demo Landing page](https://github.com/pnajmedia/e_commerce_22/blob/main/DEMO/demo3.png)
+![demo Landing page](https://github.com/pnajmedia/e_commerce_22/blob/main/DEMO/demo4.png)
 
 
 ## RUNNING the app
