@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-icons/ai';
+
 import { client, urlFor } from '../../lib/client';
 import { Product } from '../../components';
 import { useStateContext } from '../../context/StateContext';
 
 const ProductDetails = ({ product, products }) => {
-
     const { image, name, details, price } = product;
     const [index, setIndex] = useState(0);
     const { decQty, incQty, qty, onAdd, setShowCart } = useStateContext();
@@ -51,7 +51,7 @@ const ProductDetails = ({ product, products }) => {
                     </div>
                     <h4>Details: </h4>
                     <p>{details}</p>
-                    <p className="price">${price}</p>
+                    <p className="price">£{price}</p>
                     <div className="quantity">
                         <h3>Quantity:</h3>
                         <p className="quantity-desc">
@@ -83,11 +83,11 @@ const ProductDetails = ({ product, products }) => {
 
 export const getStaticPaths = async () => {
     const query = `*[_type == "product"] {
-      slug {
-        current
-      }
+    slug {
+      current
     }
-    `;
+  }
+  `;
 
     const products = await client.fetch(query);
 
@@ -104,14 +104,17 @@ export const getStaticPaths = async () => {
 }
 
 export const getStaticProps = async ({ params: { slug } }) => {
-    const productQuery = `*[_type=="product" && slug.current=='${slug}'][0]`
-    const productsQuery = '*[_type=="product"]'
-    const product = await client.fetch(productQuery);
-    const products = await client.fetch(productsQuery);
-    return {
-        props: { product, products }
-    }
+    const query = `*[_type == "product" && slug.current == '${slug}'][0]`;
+    const productsQuery = '*[_type == "product"]'
 
+    const product = await client.fetch(query);
+    const products = await client.fetch(productsQuery);
+
+    console.log(product);
+
+    return {
+        props: { products, product }
+    }
 }
 
 export default ProductDetails
