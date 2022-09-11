@@ -1,7 +1,10 @@
 ## pnajmedia Ecommerce site
 `` This is a very advanced Ecommerce portfolio site, which is custom made from scratch.
+
 `` Uses Next Js, Context API, SANITY, STRIPE and all major latest tech stack.
+
 `` Feel free to test and reach me, for such projects.
+
 `` Special thanks to JS MASTERY.
 
 ## Getting Started
