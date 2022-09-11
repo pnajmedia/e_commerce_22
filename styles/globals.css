@@ -726,10 +726,11 @@ span.text-red {
   }
 
   .hero-banner-image {
-    width: 77%;
+    /* width: 77%;
     height: 62%;
     top: -2%;
-    right: -6%;
+    right: -6%; */
+    display: none;
   }
 
   .footer-banner-container {
@@ -738,10 +739,11 @@ span.text-red {
   }
 
   .footer-banner-image {
-    width: 77%;
+    /* width: 77%;
     left: 30%;
     top: 6%;
-    height: 56%
+    height: 56% */
+    display: none;
   }
 
   .banner-desc .left h3 {
