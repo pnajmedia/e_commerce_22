@@ -5,6 +5,7 @@ node_modules
 /.pnp
 .pnp.js
 /Ecomm_portfolio
+backup.zip
 
 # testing
 /coverage
