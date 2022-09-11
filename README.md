@@ -7,7 +7,11 @@
 
 `` Special thanks to JS MASTERY.
 
-## Getting Started
+## Demo
+![demo Landing page](https://github.com/pnajmedia/e_commerce_22/blob/main/DEMO/Demo_landing_1.png)
+
+
+## RUNNING the app
 
 First, run the development server:
 
