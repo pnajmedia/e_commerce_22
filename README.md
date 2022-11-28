@@ -14,7 +14,7 @@
 ![demo Landing page](https://github.com/pnajmedia/e_commerce_22/blob/main/DEMO/demo3.png)
 ![demo Landing page](https://github.com/pnajmedia/e_commerce_22/blob/main/DEMO/demo4.png)
 
-## Demo ![LIVE Project](https://pnajecom.netlify.app/) 
+## Demo LIVE (https://pnajecom.netlify.app/) 
 
 ## RUNNING the app
 
