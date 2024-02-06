@@ -1,4 +1,4 @@
-##  Ecommerce site - Pardeep Kumar(pnajmedia)
+##  Ecommerce site - Pardeep Kumar
 `` This is a very advanced Ecommerce portfolio site, which is custom made from scratch.
 
 `` Uses Next Js, Context API, SANITY, STRIPE and all major latest tech stack.
