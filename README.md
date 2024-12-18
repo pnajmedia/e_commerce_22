@@ -35,3 +35,6 @@ CCV: 424
 ## SANITY STUDIO
 https://pnajmedia.sanity.studio/
 
+JS Mastery/ refer Video for details
+https://www.youtube.com/watch?v=4mOkFXyxfsU 
+
